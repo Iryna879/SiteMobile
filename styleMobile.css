@@ -5,6 +5,10 @@ src: url("stylus_bt/stylu.ttf") format("truetype");
 body,ul,.banner .prongs{
 	margin: 0;
 	padding: 0;
+	
+}
+body{
+	width: 1250px;
 }
 ul{list-style-type: none;}
 a{
@@ -44,6 +48,7 @@ a{
 .banner{
 	margin-top: 20px;
 	background-image: url("img/bg_header.png");
+	margin-bottom: 70px;
 }
 .banner img {
   margin-left: 50px;
@@ -54,7 +59,7 @@ a{
 .banner p span{font-size: 35px;}
 .banner p {
 	font-size: 25px;
-	font-family: "Myriad Pro";
+	font-family: "Stylus BT";
   color: #fff;
   line-height: 1.5;
   margin-top: 150px;
@@ -68,6 +73,8 @@ a{
 .btn-primary{
 	background-color: #5094f2;
 	border:none;
+	font-family: "Stylus BT";
+	width: 43%;
 }
 .btn-primary img {
   margin: 0 10px;
@@ -79,5 +86,49 @@ a{
   top: 563px;
   width: 100%;
   height: 16px;
+}
+.list div{
+	padding-left: 150px;
+}
+.list div:nth-child(1) h1,
+.list div:nth-child(2) h1,
+.list div:nth-child(3) h1 {
+  font-size: 28px;
+  font-family: "Stylus BT";
+  color: rgb(80, 148, 242);
+  line-height: 1.5;
+  text-align: left;
+}
+.list div:nth-child(1) p{
+  font-size: 18px;
+  font-family: "Segoe Print";
+  color: rgb(144, 144, 144);
+  line-height: 1.2;
+  text-align: center;
+  margin-left: -30px;
+  width: 250px;
+}
+
+.list div:nth-child(2) h1,
+.list div:nth-child(3) h1{
+	margin-left: 70px;
+}
+.list div:nth-child(2) p{
+  font-size: 18px;
+  font-family: "Segoe Print";
+  color: rgb(144, 144, 144);
+  line-height: 1.2;
+  text-align: center;
+  margin-left: -30px;
+  width: 252px;
+}
+.list div:nth-child(3) p{
+  font-size: 18px;
+  font-family: "Segoe Print";
+  color: rgb(144, 144, 144);
+  line-height: 1.2;
+  text-align: center;
+  margin-left: -30px;
+  width: 250px;
 }
 
