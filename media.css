@@ -1,0 +1,62 @@
+@media (max-width: 768px){
+	.container, .container-fluid {
+		margin-left: 0;
+		margin-right: 0;
+		width: 65%;
+	}
+	.container-fluid{
+		width: 70%;
+	}
+	.carousel{
+		width: 170%;
+	}
+	.menu{
+		visibility: hidden;
+	}
+	.menu_btn{
+		 visibility:visible;
+		  margin-left: 45%;
+	}
+#menu_switch:checked ~ .menu {
+  visibility: visible;
+  display:flex;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 346px;
+  align-items: center;
+ background-color:#5094f2;
+ border-radius: 5px;
+ font-family: "Stylus BT";  
+ width: 144px;
+}
+#menu_switch:checked ~ .menu_btn{
+      width: 144px;
+} 
+.menu a {
+	color:#fff;
+}
+.menu a:hover{
+	border-bottom: none;
+}
+.carousel-control-next-icon{
+  margin-left: 45%;
+}
+.carousel-control-prev-icon {
+ margin-left: -100px;}
+img.d-block  {
+  width: 253px;
+  height: 320px;
+}
+.carousel-caption{
+	width: 50%;
+	top:20%;
+	left: 50%;
+	text-align: left;
+}
+
+   .list img,  .list div.blockim {
+   	display: inline-block;
+   	padding-left: 20px;
+   }
+  
+}

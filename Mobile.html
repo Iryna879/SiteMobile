@@ -6,15 +6,20 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<title>Mobile</title>
 	<link rel="stylesheet" href="styleMobile.css">
+	<link rel="stylesheet" href="media.css">
 </head>
 <body>
 	<div class="container">
 		<div class="row  logo">
-			<div class="col-4 ">
+			<div class="col-xl-4 col-lg-5 ">
 				<a href="#"><img src="img/logo.png" alt="alt">
 					<span class="mobile">Mobile</span></a>
 				</div>
-				<div class="col-6 offset-2">
+				<div class="col-xl-6 offset-2 col-lg-2 offset-5 ">
+					 <input id="menu_switch" type="checkbox"/>
+                  <label class="menu_btn" for="menu_switch">
+                  <span></span>
+            </label>
 					<ul class="menu">
 						<li><a href="#">Home</a></li>
 						<li><a href="#">Products</a></li>
@@ -27,11 +32,10 @@
 		<div class="container-fluid p-0">
 			<div class="container">
 				<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-
 					<div class="carousel-inner">
 						<div class="carousel-item active">
 							<img src="img/iphone.png" class="d-block" alt="...">
-							<div class="carousel-caption d-none d-md-block">
+							<div class="carousel-caption d-md-block">
 								<h5>Lorem Ipsum is simply</h5>
 								<p>dummy text of the <br>
 								printing & typesetting</p>
@@ -40,7 +44,7 @@
 						</div>
 						<div class="carousel-item">
 							<img src="img/iphone.png" class="d-block" alt="...">
-							<div class="carousel-caption d-none d-md-block">
+							<div class="carousel-caption d-md-block">
 								<h5>Lorem Ipsum is simply</h5>
 								<p>dummy text of the <br>
 								printing & typesetting</p>
@@ -48,7 +52,7 @@
 						</div>
 						<div class="carousel-item">
 							<img src="img/iphone.png" class="d-block" alt="...">
-							<div class="carousel-caption d-none d-md-block">
+							<div class="carousel-caption d-md-block">
 								<h5>Lorem Ipsum is simply</h5>
 								<p>dummy text of the <br>
 								printing & typesetting</p>
@@ -71,17 +75,19 @@
 
 		<div class="container">
 			<div class="row list">
-				<div class="col-4 ">
+				<div class="col-xl-4 col-lg-12 ">
 					<img src="img/write.png" alt="alt">
+					<div class="blockim">
 					<h1>Write and draw</h1>
-					<p>Lorem Ipsum is not simply random text. It has roots in a piece </p>
+					<p>Lorem Ipsum is not simply random text. It has roots in a piece </p></div>
 				</div>
-				<div class="col-4">
+				<div class="col-xl-4 col-lg-12">
 					<img src="img/look.png" alt="alt">
+
 					<h1>Look</h1>
 					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 				</div>
-				<div class="col-4">
+				<div class="col-xl-4 col-lg-12">
 					<img src="img/Buy.png" alt="alt">
 					<h1>Buy</h1>
 					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
