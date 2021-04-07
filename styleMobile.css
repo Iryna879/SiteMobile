@@ -131,4 +131,48 @@ font-family: "Stylus BT";}
   width: 252px;
 }
 
+.cart {
+  font-size: 50px;
+  font-family: "Jokerman";
+  color: rgb(77, 142, 215);
+  line-height: 0.9;
+  text-align: left;
+  text-shadow: 0px 9px 0px rgba(122, 130, 161, 0.37);
+  margin-left: 40px;
+  margin-top: 65px;
+}
+
+.sometext img  {
+  margin-left: 30px;
+  margin-top: 45px;
+}
+
+.sometext h6 {
+  font-size: 30px;
+  font-family: "Stylus BT";
+  color: rgb(111, 113, 115);
+  line-height: 1.5;
+  text-align: left;
+  margin-left: 111px;
+  margin-top: 20px;
+}
+.sometext p {
+  font-size: 16px;
+  font-family: "Stylus BT";
+  color: rgb(144, 144, 144);
+  line-height: 2.25;
+  text-align: left;
+  margin-left: 30px;
+  width: 470px;
+}
+
+.footer div {
+  font-size: 25px;
+  font-family: "Algerian";
+  color: rgb(144, 144, 144);
+  line-height: 1.44;
+  text-align:left;
+  width: 400px;
+}
+
 
