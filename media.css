@@ -1,14 +1,15 @@
 @media (max-width: 768px){
 	.container, .container-fluid {
-		margin-left: 0;
-		margin-right: 0;
-		width: 65%;
+		margin-left: 85px;
+		width: 100%;
+		padding: 0;
 	}
-	.container-fluid{
-		width: 70%;
+	.container-fluid
+	{
+		margin-left: -1%
 	}
 	.carousel{
-		width: 170%;
+		width: 120%;
 	}
 	.menu{
 		visibility: hidden;
@@ -39,7 +40,7 @@
 	border-bottom: none;
 }
 .carousel-control-next-icon{
-  margin-left: 45%;
+  margin-left: 50%;
 }
 .carousel-control-prev-icon {
  margin-left: -100px;}
@@ -53,10 +54,92 @@ img.d-block  {
 	left: 50%;
 	text-align: left;
 }
-
-   .list img,  .list div.blockim {
-   	display: inline-block;
-   	padding-left: 20px;
+.list img{
+      width: 220px;
+      height: 220px;
+}
+.list div:nth-child(1) .blockim h1,
+.list div:nth-child(2) .blockim h1,
+.list div:nth-child(3) .blockim h1{
+  font-size: 61px;
+  line-height: 0.718;
+}
+.list div:nth-child(1) .blockim h1{
+     margin-left: -100px;
+}
+.list div:nth-child(2) .blockim h1,
+.list div:nth-child(3) .blockim h1{
+	margin-left: -330px;
+}
+.list div:nth-child(1) .blockim p{
+	 width: 600px;
+}
+.list div:nth-child(2) .blockim p,
+.list div:nth-child(3) .blockim p{
+  width: 550px;
+}
+.list div:nth-child(1) .blockim p,
+.list div:nth-child(2) .blockim p,
+.list div:nth-child(3) .blockim p{
+    font-size: 35px;
+  text-align: left;
+  padding-left: 60px;
+}
+.list div:nth-child(1),
+.list div:nth-child(2),
+.list div:nth-child(3){
+   	display: flex;
+   	justify-content: space-around;
+   	align-items: center;
+   	margin-top: 30px;
+}
+.list div:nth-child(1) .blockim,
+.list div:nth-child(2) .blockim,
+.list div:nth-child(3) .blockim{
+   	display: flex;
+   flex-direction: column;
    }
+   .cart div{
+   	display: flex;
+   	flex-wrap: nowrap;
+   	justify-content: center;
+   	padding:0;
+   }
+  .cart {
+  	  font-size: 60px;
+  line-height: 0.55; 
+  margin-left: 0;
+  }  
+  .sometext div {
+  	display: flex;
+    justify-content:center;
+  }
+  .sometext div:nth-child(2){
+  	flex-direction: column;
+  }
+  .sometext h6{
+  font-size: 60px;
+  line-height: 0.734;
+  width: 100%;
+}
+.sometext p{
+  font-size: 29px;
+  line-height: 1.739;
+  margin: 0;
+    width: 860px;
+}
+.footer div  {
+  font-size: 35px;
+  line-height: 0.88;
+  text-align: center;
+  width: 600px;
+}
+
+
+
   
 }
+
+
+
+

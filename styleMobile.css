@@ -84,7 +84,7 @@ a{
 .menu a:hover{
 	color: rgb(108, 108, 108);
 	border-bottom: 3px solid #5094f2;
-	padding-bottom: 13px;
+	padding-bottom: 14px;
 }
 .container-fluid {
 	margin-top: 20px;
@@ -140,18 +140,21 @@ font-family: "Stylus BT";}
 .list div{
 	padding-left: 100px;
 }
-.list div:nth-child(1) h1,
-.list div:nth-child(2) h1,
-.list div:nth-child(3) h1 {
+.list .blockim{
+	padding-left: 0;
+}
+.list div:nth-child(1) .blockim h1,
+.list div:nth-child(2) .blockim h1,
+.list div:nth-child(3) .blockim h1 {
   font-size: 28px;
   font-family: "Stylus BT";
   color: rgb(80, 148, 242);
   line-height: 1.5;
-  text-align: left;
+  
 }
-.list div:nth-child(1) p,
-.list div:nth-child(2) p,
-.list div:nth-child(3) p{
+.list div:nth-child(1) .blockim p,
+.list div:nth-child(2) .blockim p,
+.list div:nth-child(3) .blockim p{
   font-size: 18px;
   font-family: "Segoe Print";
   color: rgb(144, 144, 144);
@@ -159,16 +162,16 @@ font-family: "Stylus BT";}
   text-align: center;
   margin-left: -30px;
 }
-.list div:nth-child(1) p,
-.list div:nth-child(3) p{
+.list div:nth-child(1) .blockim p,
+.list div:nth-child(3) .blockim p{
   width: 250px;
 }
 
-.list div:nth-child(2) h1,
-.list div:nth-child(3) h1{
+.list div:nth-child(3) .blockim h1,
+.list div:nth-child(2) .blockim h1{
 	margin-left: 70px;
 }
-.list div:nth-child(2) p{
+.list div:nth-child(2) .blockim p{
   width: 252px;
 }
 
